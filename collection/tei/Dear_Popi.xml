@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Αγαπητή Πόπη</title><author>Αλέκος Μουζάς</author><principal>Vasiliki Kokkala</principal><respStmt><name>Γιάννης Μουζάς</name><resp>Owner and provider of the source. Image and text capture.</resp>
+                </respStmt>
+            </titleStmt><editionStmt><edition>First edition, as an Assignment for the Digitising Cultural Heritage Material Course, University of Borås </edition></editionStmt>
+            <publicationStmt>
+                <authority>Vasiliki Kokkala</authority><distributor>University of Borås</distributor><date>Autumn 2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">It is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p> Four letters written by Alekos Mouzas, a student in Axis ocupated
+                    Greece, to his sister, Popi, from April 1942 to December 1944. 
+The letters belong to Alekos’ son, Yiannis. They form a part of the correspondence between Alekos and Popi, which Yiannis was given by her, some time before she passed away.
+ </p>
+            </sourceDesc>
+<sourceDesc><p><name type="letter" xml:id="letter2" xml:lang="el">First letter</name>was written in<date corresp="letter2">30.04.1942</date>,
+<name type="letter" xml:id="letter3" xml:lang="el">second one</name> in <date corresp="letter3">04.10.1942</date>, <name type="letter" xml:id="letter4" xml:lang="el">third letter</name>was written in <date corresp="letter4">18.11.1944</date>, and <name type="letter" xml:id="letter5" xml:lang="el">last one</name> in <date corresp="letter5">28.12.1944</date>
+</p>
+</sourceDesc>
+<sourceDesc>
+<p>They are written by hand in small-letter script. The first letter is written with a fountain pen in the two pages of a thin sheet of lined paper, with the letters being slightly seen to the other side of the paper. The second one is written with pen in one side of a sheet of a white sheet of paper taken from a tax notebook, and with the data of the receiver written on the back of it. It was folded instead of being sent within an envelope. The third letter is written in a double sheet of lined paper, using the three sides of it, with a pencil again, and in a larger and not so careful script. The last letter is written in the side of one piece of white paper, and on its back there is the postscript, and a deleted address with an unknown (to me) name. I guess it was a paper probably on a second use, as the circumstances of the writing were not the best for finding resources. </p></sourceDesc>
+        </fileDesc>
+ <profileDesc> <langUsage>
+                <language ident="el"/>
+            </langUsage>
+<correspDesc><p>The first two letters  were written in Thessaloniki, by Alekos during his studies, and were sent to his sister, Popi, who had gone with the rest of the family in a village of Chalkidiki, the wider region, for surviving the great famine that brought the first winter of the occupation. The last two letters were written in the broader region of Serres, where Alekos had gone, to fight with the Resistance, and were sent to Thessaloniki where his family had returned. None of the letters has stamps, which is another characteristic of the period: the correspondence for the people did not function adequately, and the letters were given by hand to trusted persons who would commute.</p></correspDesc>
+
+<particDesc>
+<listPerson type="refered">
+<person xml:id="Popi" gender="woman" role="sister of Alekos"><persName><forename type="pet">Πόπη</forename><surname>Μουζά</surname> </persName> </person>
+<person xml:id="Νινα" gender="woman" role="mother of Alekos"><persName><forename>Νίνα</forename><surname type="birth">Σούλιου</surname></persName> </person>
+<person xml:id="Alekos" gender="man" role="author_of_letters"><persName><forename full="abb">Αλέκος</forename><forename full="yes">Αλέξανδρος</forename><surname>Μουζάς</surname></persName></person>
+<person xml:id="Giorgos" gender="man" role="brother of Alekos"><persName><forename>Γιώργος</forename><surname>Μουζάς</surname></persName> </person>
+<person xml:id="Takis" gender="man" role="brother of Alekos"><persName><forename>Δημήτρης</forename><surname>Μουζάς</surname></persName> </person>
+<person xml:id="Tasos" gender="man" role="brother of Alekos"><persName><forename>Αναστάσιος</forename><surname>Μουζάς</surname></persName> </person>
+<person xml:id="Anna" gender="woman" role="sister of Alekos"><persName><forename type="petname">Αννούλα</forename><forename full="yes">Άννα</forename><surname>Μουζά</surname> </persName> </person>
+<person xml:id="Marika" gender="woman" role="sister of Alekos"><persName><forename type="petname">Μαρίκα</forename><surname>Μουζά</surname> </persName> </person>
+<person xml:id="Yiannakis" gender="man" role="father of Alekos"><persName><forename type="known_as">Γιαννάκης </forename><forename>Ιωάννης</forename><surname>Μουζάς</surname></persName> </person>
+<person xml:id="SpMelas" gender="man" role="author"> <idno type="VIAF">32028724</idno><persName><forename>Σπύρος</forename><surname>Μελάς</surname></persName> <birth><date>1882</date></birth> <death>1966</death> </person>
+<person xml:id="Papaf" gender="man" role="priest_and_rebel"> <idno type="VIAF">40183848</idno><persName type="known_as_such">Παπαφλέσσας</persName> <birth><date>1788</date></birth> <death>1825</death> </person>
+<person> <persName xml:id="Traianos"><forename>Τραϊανός</forename> <surname>Δούκας</surname></persName></person>
+</listPerson>
+</particDesc>
+
+<settingDesc><listPlace><place><placeName xml:id="SalaminaSKG">Salamina</placeName></place>
+<place><placeName ref="https://el.wikipedia.org/wiki/%CE%9D%CE%B5%CE%BF%CF%87%CF%8E%CF%81%CE%B9_%CE%A7%CE%B1%CE%BB%CE%BA%CE%B9%CE%B4%CE%B9%CE%BA%CE%AE%CF%82"><settlement>Νεοχώρι</settlement> Αρναίας</placeName></place>
+<place><placeName xml:id="Thess" ref="https://en.wikipedia.org/wiki/Thessaloniki">Θεσσαλονίκη</placeName><idno type="TGNF">7011182</idno></place>
+<place><placeName xml:id="Serres" ref="https://en.wikipedia.org/wiki/Serres">Σέρρας</placeName><idno type="TGNF">7011183</idno></place>
+<place> <placeName xml:id="Kavala" ref="https://en.wikipedia.org/wiki/Kavala">Καβάλλα</placeName><idno type="TGNF">1042068</idno></place>
+  <place><placeName xml:id="Drama" ref="https://en.wikipedia.org/wiki/Drama,_Greece">Δράμα</placeName><idno type="TGNF">1041996</idno></place> 
+<place><placeName xml:id="Zichni" ref="https://en.wikipedia.org/wiki/Nea_Zichni" >Νέα Ζίχνη</placeName> <settlement>Nea Zichni</settlement> <event> <p>This is Alekos' family place, from where his parents had moved to Thessaloniki,so that the children could study. </p></event> <idno type="TGNF">7225301</idno> </place> 
+<place> <placeName xml:id="Sfelinos" ref="https://el.wikipedia.org/wiki/%CE%A3%CF%86%CE%B5%CE%BB%CE%B9%CE%BD%CF%8C%CF%82_%CE%A3%CE%B5%CF%81%CF%81%CF%8E%CE%BD">Σφελινός</placeName><idno type="TGNF">7223245</idno></place>
+<place><placeName xml:id="Sochos" ref="https://en.wikipedia.org/wiki/Sochos">Σοχός</placeName></place>
+</listPlace></settingDesc>
+  
+ </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p> The 4 letters were numbered 2 to 5, due to initial numbering on the sources selection. Text no1 was finally decided to be left out as not strictly relevant of the others to be part of this collections. However, the numbering remained unchanged, so not to have a confusion between files of images and transcriptions.</p><p>The transcription does not render the multi-accent script of the original; this happens because it would accumulate a lot more time, and also I do not have proper knowledge of the polytonic orthography.</p><p>The letters were approached as of similar context, for this reason element &lt;group&gt; was chosen. </p><p>Initially, the customization of tei_lite was used. Then I changed to tei_all, as I understood I needed more elements such as &lt;correspDesc&gt; and &lt;persName&gt;. It is quite more of a burden, but I decided it would be more enhancing for the project, as it is about correspondence</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>The goal of the encoding project is content availability. The intention was to provide nuances of microhistory, an aspect of personal views of an agent with specific characteristics rergarding historical events, and through this, users of the content can put together this facet of history with others, with focus on local history, and revealing aspects of university and social life of the specific context. It is about a university student during the period 1942-1944, in the north part of Greece, who first attends classes in the city of the German occupied Thessaloniki, and next writes from the region of Serres, Bulgarian occupied, where he joined the Greek resistance. Focus is given on the text-based content of the documents, instead of the documents as objects.</p>
+            </projectDesc>
+        </encodingDesc>
+       
+    </teiHeader>
+    <text>
+        <group>
+            <text type="letter" xml:id="letter2">
+                <body>
+<div>                <opener><dateline><date when="1942-04-30"> <del>29-</del> 30-4-42</date></dateline><lb/>
+<salute>Αγαπητή <name type="person" xml:id="Popi">Πόπη</name></salute></opener><lb/>
+
+<p>Έγραψα <date when="1942-04-29">χθες</date> αλλά θα ήμουν αναίσθητος αν δεν συμπλήρωνα <date when="1942-04-30">σήμερα</date> τουλάχιστον αυτήν την κόλλα που έχω μπροστά μου. Λοιπόν <date when="1942-04-29">χθες</date> ευκαίρησα λίγο και έγραψα στην <name type="person" role="mother of Alekos" xml:id="nina">μαμά</name> και ως επίμετρον δυό λογάκια και σε σένα. <date when="1942-04-29">Χθες</date> πηγαίνοντας να ταχυδρομήσω το γράμμα συνάντησα <name type="person">τον <surname>Παπαδόπουλο</surname> τον <forename>Σταύρο</forename></name> και μου είπε <rs type="correspondence">ότι έχει ένα γράμμα από το <placeName type="village">χωριό</placeName> να μου δώση</rs>. Το πήρα λοιπόν το βράδυ γιατί όλη την μέρα δεν τον βρήκαμε και <date when="1942-04-30">σήμερα</date> πρωί-πρωί σας γράφω. Ούτε σας βαρέθηκα, ούτε σας ξέχασα και ούτε ήθελα να φύγω από κεί. Αλλά μου φαίνεται ότι όταν αναλαμβάνουμε μια δουλειά πρέπει να την τελειώνουμε. Το καλοκαίρι πάλι θα είμαι <rs type="village">εκεί</rs> μέχρις ότου και πάλιν <name type="academic">το επιστημονικό μου καθήκον </name>με καλέσει στην θέση μου. Βέβαια <rs type="occupation">οι καιροί είναι δύσκολοι</rs>, αλλά η επιστήμη υπερίπταται των δυσχερειών. Άκουσα την φήμη ότι πρόκειται να λήξη <name type="academic">το έτος</name> στις <date when="1942-05-20">20 Μαΐου</date>, το πολύ όμως στις <date when="1942-05-31">31</date> <rs type="correspondence">όπως σ έγραψα χθες</rs>. Τρώω στην <name type="academic">λέσχη</name> – ατελώς εννοείται- και δεν κατεβαίνω στο σπίτι παρά το βράδυ. Τις ώρες που δεν έχουμε <name type="academic">παραδόσεις</name> τις περνώ στο <name type="academic">αναγνωστήριο</name> γιατί φέτος τουλάχιστον από τα 9 <name type="academic">μαθήματα</name> που θα δώσουμε <name type="academic">εξετάσεις</name> πρέπει ν’ αριστεύσω στα 3, στα δε άλλα να πάρω λίαν καλώς για να είμαι ευχαριστημένος από τον εαυτό μου. Κάνει σπουδαίες μέρες και δω και από κάποτε πηγαίνουμε <name type="community">βαρκάδα</name> όταν έχουμε <name type="academic">μάθημα</name> στην παραλία όπου είναι <name type="academic" full="abb">το Ψυχολογικό</name>. Έχω να σας γράψω ολόκληρες εφημερίδες αλλά σου το ξαναλέω ότι δεν έχω χρόνο. Όρεξη έχω αλλά αν καταπιαστώ με την <name type="correspondence">αλληλογραφία</name> θα αφήσω <rs type="academic">την συστηματική <name type="academic">μελέτη</name></rs> και αυτό θα έχει συνέπειες γιατί το χρονικό διάστημα είναι λίγο και 
+
+<pb/><name type="academic">τα μαθήματα</name> πολλά. <date when="1942-04-30">Σήμερα</date> π.χ. έχω <name type="academic">μάθημα</name> στις 9 και ως τότε θα διάβαζα την <name type="academic">«Εισαγωγή εις την Φιλοσοφία»</name> μάθημα το οποίο είναι δυσνόητον και του οποίου χθες κάναμε την έναρξη με τον <rs>κύριο <persName role="professor"><surname>Ιμβριώτη</surname></persName></rs>.</p>
+
+<p>Τον <persName xml:id="Giorgos">Γιώργο</persName> τον γράψαμε στο <name type="school">Α’ Γυμνάσιο</name> προτού ακόμα έλθει και κατόπιν δεν μπορούσαμε να ενεργήσουμε διαφορετικά. Κατά την γνώμη μου η θέση του <persName xml:id="Giorgos">Γιώργου</persName> είναι στο  <name type="school">Α’ Γυμνάσιο</name> και ότι αν απομακρυνθεί απ’ αυτό θα χάσει πολλά πράγματα και θα γίνει όμοιος με τους πολλούς.
+Τι γίνεται η <persName xml:id="Anna">Αννούλα</persName>; <rs type="correspondence">Να με γράψει</rs> από καμμιά φορά.</p> <p>Δεν ξέρω πώς να δικαιολογηθώ στην <persName xml:id="Marika">Μαρίκα</persName> <rs type="correspondence">που δεν την έγραψα ακόμα</rs>, το κεφάλι μου έγινε νταούλι. Εσένα σε γράφω τώρα σαν για να διαμαρτυρηθώ για τα παράπονα που δεν στέκονται. <date when="1942-04-30">Σήμερα</date> πήγα στις 5 στην <placeName xml:id="SalaminaSKG">Σαλαμίνα</placeName> <rs type="occupation">να πάρω ψάρια με δελτία που μας έδωσαν </rs>αλλά δεν είχε και με είπε από <date when="1942-05-04">Δευτέρα</date>. Ήρχισε επίσης<name type="occupation"> η διανομή εληών</name>. Χαιρετισμούς πολλούς σ’ όλους. Ξέχασα να σε πω ότι <rs type="correspondence">είχα χθες και γράμμα </rs>από τον <persName><forename type="petname">Βασιλάκη</forename></persName> αλλά δεν τον απάντησα ακόμα και ούτε ξέρω πότε θα ευκαιρήσω. Το <orgName type="academic" ref="https://en.uoa.gr/"> Πανεπιστήμιον των Αθηνών</orgName> έκλεισε επ’ αόριστον κατόπιν απεργιών και άλλων τέτοιων που έκαναν οι <name type="academic">φοιτηταί</name>. <rs type="academic" ref="https://www.auth.gr/en/">Εδώ</rs> πρόκειται να δοθή <name type="community">καλλιτεχνική παράσταση</name> υπό των φοιτητών υπέρ των απόρων, δηλ. υπέρ της <name type="academic">φοιτητικής λέσχης</name>. Το έργο που επροτάθη είναι <name type="theatrical_play" xml:id="play">ο «<persName xml:id="Papaf">Παπαφλέσσας</persName>»</name> του <persName xml:id="SpMelas"><forename full="init">Σπ.</forename> Μελά</persName>, και μάλιστα άρχισαν οι πρόβες. Μέγα μέρος εκ των φοιτητών είναι της γνώμης ότι το <del>έργο</del> ανέβασμα <name xml:id="play">του έργου αυτού</name> είναι γελοιοποίησις της εθνικής συνειδήσεως και ετάχθη σε αντίθετη παράταξη προσπαθών να ματαιωθή <name xml:id="play">το έργο</name> αν και έχει ληφθή η σχετική άδεια από την <name type="academic">Πρυτανεία</name>, την <name>Γεν. Διοίκηση</name> και τις <orgName type="occupation">Γερμανικές αρχές</orgName>. Γράψε μου και συ με ποια παράταξη συμφωνείς και τους λόγους.</p>
+<closer><salute>Με αγάπη</salute>
+<signed><persName xml:id="Alekos">Αλέκος</persName></signed></closer></div>
+
+                </body>
+            </text>
+            <text type="letter" xml:id="letter3">
+                <front><div><p><address><name>Δίδα Πόπη Μουζά</name><placeName><settlement rend="underlined">Νεοχώρι</settlement> Αρναίας</placeName></address></p></div></front>
+<body>
+<div><opener><dateline><date when="1942-10-04">Κυριακή 4-10-42</date></dateline>
+<salute>Αγαπητή <persName full="abb">Πόπη</persName></salute></opener><lb/>
+
+<p>Μόλις και μετά βίας ευκαίρησα <date when="1942-10-04">σήμερα</date>p> λιγάκι για να σου γράψω δύο λόγια και κείνο επειδή δεν πήγα στην <name type="community">εκκλησία</name> όπου θα μιλήσει σήμερα ο <persName>Παρασκευόπουλος</persName> και θα ψάλη <name type="community">η χορωδία των κατηχητικών σχολείων</name>. Πήγε όμως ο <persName xml:id="Giorgos">Γιώργος</persName> και ο <persName full="abb" xml:id="Takis">Τάκης</persName> και <persName xml:id="Alekos">εγώ</persName> κάθισα <rs type="community">να κάνω το φαγί</rs>. Κρέας με πατάτες παρακαλώ. Επίσης έκανα και κεφτέδες για αύριο. Κεφτέδες αλλά Σμυρνέϊκο, δηλ. με σκόρδα, πιπέρι κόκκινο, ντομάτα κλπ. μυρωδικά.</p>
+<p>
+<rs type="correspondence">Πιστεύω να ευχαριστήθηκες με τους φακέλους που σου έστειλα και για τις λίγες κόλλες. Τώρα έμεινα εγώ χωρίς φάκελο αλλά θα βάζω φακέλους του γραφείου</rs>. Την Σύνοψι της <persName xml:id="Marika">Μαρίκας</persName> την πήρα 1500 δραχμές από το <name>βιβλιοπωλείον «Ζωή»</name>. Αν μπορέσει ας μου εμβάση τα υπόλοιπα. Πες στην <persName xml:id="Nina">μάμα</persName> ότι χρωστούμε στη «ζωή» το έτος 1942 μόνον δηλ. δραχμές 500 (τόσο έγινε τώρα) και βγαίνει κατά εικοσαήμερον. Ρώτατην αν <unclear>παίρνει</unclear> γιατί έκανα παράπονα ότι δεν μας την στέλνουν.</p>
+<p>>
+Εγώ δεν έκανα ακόμα τίποτα. Ήρθα αργά <rs type="occupation">για τις θέσεις που είχε στους μύλους</rs> και έτσι έμεινα απ’ έξω. Τώρα φροντίζουμε για την <rs type="occupation">κοινωνική πρόνοια</rs>. Οι <name type="academic">εξετάσεις</name> αρχίζουν στις 10 και τελειώνουν μετά τις 25. Ως τότε θα σε ξαναγράψω. Τώρα ενεργούμε να μας δοθή 3η <name type="academic">εξεταστική περίοδος</name> γιατί δεν είμαστε έτοιμοι για την δεύτερη και υπάρχει φόβος να χάσουμε την χρονιά μας. Καθώς φαίνεται βαδίζουν ευνοϊκώς τα πράγματα. Περιμένουμε απάντηση από το <name>υπουργείο</name>. Και φέτος οι <name type="academic">εισαγωγικές εξετάσεις </name>καταργήθηκαν όπως διάβαζα χθες. Το  <orgName type="academic" ref="https://en.uoa.gr/"> πανεπιστήμιον των Αθηνών</orgName> θα λειτουργήσει, πες στον <persName>Βασιλάκη</persName>. Τα <name type="academic">μαθήματα</name> αρχίζουν στις 25<choice> <abbr>τ.μ.</abbr> <expan>τρέχοντος μηνός</expan></choice> πες στον <persName>Ψυχούλα</persName>.
+Χαιρετισμούς σ’ όλους. Αλήθεια πώς παν τα κάστανα; Κρίμα που έφυγα στην καλύτερη εποχή, αλλά δεν μπορούσε να γίνη διαφορετικά. ‘Αμα δεν γίνει τίποτα εδώ ίσως έρθω πάλι μετά τις <name type="academic">εξετάσεις</name>. Τώρα ενεργώ να τρώω στην λέσχη ατελώς, πιστεύω να πετύχω. Πες επίσης στον <persName><surname>Ψυχούλα</surname></persName> ότι <persName role="professor">ο καθηγητής μας <surname>Σταματάκης</surname></persName> <rs type="ocupation">βγήκε από την φυλακή αφού πέρασε από στρατοδικείο</rs> και <rs type="academic">θα μας εξετάσει</rs> αυτός. Για την ώρα άλλο νεώτερο δεν έχω, ησυχία. Περιμένω νέα σας. Από τον <persName xml:id="Tasos" ><forename full="abb">Τάσο</forename></persName> δεν έχουμε τίποτα νεώτερα. Φαίνεται ότι ετοιμάζεται να ‘ρθεί, δεν ξέρω.
+</p>
+<closer>Αυτά τα ολίγα. Περιμένοντας απάντηση
+<salute>Διατελώ μεθ’ υπολήψεως. </salute><signed><persName xml:id="Alekos"><forename full="init">Αλ</forename> Μουζάς</persName></signed></closer>
+<postscript><label>Υ.Γ.</label> <p>Τα κάστανα εδώ είναι 1600-1700 (2200 βρασμένα). Τι τραβήξαμε στο δρόμο με τον <persName><surname><unclear>Κακλαμάνο</unclear></surname></persName> θα σας τα είπε ο <persName><forename>Βασίλης</forename><surname><unclear> Στρ..ής</unclear></surname>.</persName> Τα κολοκύθια 200.</p>
+</postscript><closer><signed><persName xml:id="Alekos"><forename full="init">Αλ</forename> Μουζάς</persName></signed></closer>
+<!-- Προφανώς χωρίς μεσολάβηση Ταχυδρομείου. Ο κομιστής της επιστολής φαίνεται ότι είναι το πρόσωπο που αναφέρεται στο τέλος, Βασίλης Στρ..ής; -->
+          </div>
+                </body>
+            </text>
+            <text type="letter" xml:id="letter4">
+                <front>
+ <div><p><address><name>Πόπη Μουζά</name> <addrLine>Κύπρου 13 <placeName xml:id="Thess" full="abb">Θεσ/νίκη</placeName></addrLine></address></p></div></front>
+<body><div><opener><dateline><date when="1944-11-18">18-<unclear>11</unclear>-44</date></dateline>
+<lb/>
+<salute>Αγαπητή <persName xml:id="Popi">Πόπη</persName>,</salute></opener>
+<lb/>
+<p>Με την πρώτη ευκαιρία κάθουμαι και <rs type="correspondence">σε γράφω</rs> (αφού δεν έχω να κάνω άλλο καλύτερο). Στας <placeName xml:id="Serres" ref="https://en.wikipedia.org/wiki/Serres">Σέρρας</placeName> πέρασα καλά, καθίσαμε 2 βραδυές και είδαμε 2 <rs type="community">κινηματογραφικά έργα</rs>.</p>
+<p>Πήγα στην<persName> Μ. Πόρναλη</persName> <del/>αλλά δεν πρόλαβε να με περιποιηθεί γιατί την μέρα που θα πήγαινα για φαγητό φύγαμε. Πες στον <persName xml:id="Takis">Τάκη</persName> πως δεν πρόλαβα να διώ <persName>τον κουμπάρο του <persName>Δημητράκη Νικολαΐδη</persName></persName>. Πάντως στο σπίτι του στεγάζεται <orgName type="resistance" ref="https://el.wikipedia.org/wiki/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CE%AE_%CE%91%CE%BB%CE%BB%CE%B7%CE%BB%CE%B5%CE%B3%CE%B3%CF%8D%CE%B7">η Εθνική Αλληλεγγύη Σερρών</orgName> <del/> Είδα το σπίτι της <persName>θείας <forename>Ολυμπίας</forename> </persName>που <del/> είναι στην τρίχα, ταπετσαρία καινούργια κλπ. Χαιρετισμούς από την <persName>Φαίδρα</persName>, <persName>Μαριγούδα</persName> <rs>κλπ.</rs> Στην <placeName xml:id="Kavala">Καβάλλα</placeName>, μείναμε παραπάνω. Περάσαμε και κει καλά. Ο <persName>θείος Θοδωράκη</persName>ς αδυνάτισε πάρα πολύ. Χαιρετισμούς από την <persName>Στέλλα</persName> – <persName>Γιώργο</persName> – <persName>Νίτσα</persName>.
+<lb/>Στην <placeName xml:id="Drama">Δράμα</placeName> μείναμε μόνο μια βραδυά και κείνη κλεισμένοι στο <name>Ξενοδοχείο</name> γιατί έβρεχε.</p>
+<p>Στη <placeName xml:id="Zichni" >Ζηλιάχωβα</placeName> μείναμε μόνο μια ώρα. Εγώ έμεινα πίσω για να διώ <persName>τους δικούς</persName>. Πήγα στο σπίτι <persName>του Τάκου</persName> που έχει δυό ωραία μικρά. Νύχτα πήγα και και νόμισαν πως ήταν ο μπαμπάς. Το πρωί είδα την <persName>Σουλτάνα</persName> βιαστικά, πήγα στο σπίτι της <persName>Χρυσάνθης</persName>. Ήταν εκεί η <persName>Χρυσάνθη</persName>, <persName>Μαρίκα</persName>, η μάνα τους <persName>Αφροδίτη</persName> (τώρα θυμήθηκα το όνομα) και <persName>ο γαμπρός</persName>. Φαντάζεσαι κλάμματα και φιλήματα. Από κεί στον <persName>Τιμολέοντα</persName> που είναι στο κρεββάτι, γιατί<rs type="occupation"> από το ξύλο πρήστηκε το γόνατό του και δεν μπορεί να κουνηθή</rs>. Εκεί και η <persName>θεία Χρυσανθή</persName> και <persName>η αδερφή του Στέργιου</persName> που τον στέλνει πολλά χαιρετίσματα. Άμα θα ‘ρθεί να τον πείτε. Σε λίγο ήρθε ο <persName>Αλέκος Τσιάμης</persName> που ήθελε να με πάρει σπίτι του, αλλά επειδή η ώρα πέρασε σε λίγο έφυγα. Με συνόδεψε ο <persName>Τάκος</persName> και <persName>Αλέκος</persName> 2-3 χιλιόμετρα έξω προς το <placeName xml:id="Sfelinos">Σφελινό</placeName>, ο δε<persName> Θανασάκης Σούλιος</persName> ως <placeName>εδώ</placeName> γιατί είχε δουλειά εδώ. Έχεις χαιρετίσματα από όλους. Έγραψα στον <persName>Τάκη</persName> για τον θάνατο της <persName>θείας Βαγγελιώς</persName> που περίμενε τον <persName>Γιαννάκη</persName> ως την τελευταία στιγμή. Τον <persName>Νάκο</persName> δεν τον είδα.
+<rs type="correspondence">Το γράμμα το γράφω</rs> στο σπίτι του<persName> Δημητράκη Φράγγου</persName>. Με τον <persName>Τάκη</persName> είμαστε μαζί. <name type="correspondence">Το γράμμα</name> που τον έδωσε ο <persName>Τάκης</persName> <rs type="correspondence">σήμερα το έφερε στο σπίτι</rs>. Η <persName>Ιωνία (αδερφή του Δημητράκη)</persName> πλέκει ένα πουλόβερ και θυμήθηκα την υπόσχεσή σου, ή μάλλον την υπόσχεση της <persName type="petname">Νούλης</persName> για το πουλόβερ που θα μου πλέξει. Δεν αμφιβάλλω πως θα γίνει ώμορφο, μα πες της, μαζί με τα χαιρετίσματά μου, να βιαστεί κομματάκι γιατί γύρω χιόνισε και αν βγάλω να πλύνω το πουλόβερ που έχω, θα συναχωθώ και θα φταρνίζουμε.</p>
+<p><rs type="correspondence" >Με τον άνθρωπο που θα φέρει το γράμμα περιμένω γράμμα σας</rs>.</p>
+<p>Θα σ’ έγραφα πάρα πολλά αλλά η σάλπιγγα χτύπησε «φαντάρε πού πάς» και υπεράνω όλων το καθήκον
+                            απέναντι στην κοιλιά. Θα σου έγραφα π.χ. <rs type="community">πώς κάναμε
+                                χαλβά </rs>και θα έσπαζες πλάκα και πολλά. Ο
+                                <persName>Δημητράκης</persName> πήγε με την <name type="community"
+                                >Φιλαρμονική</name> στη <placeName xml:id="Zichni"
+                                >Ζηλιάχωβα</placeName> που έχει <name type="community">χορό</name>.</p>
+<closer><salute>Χαιρετισμούς <hi rend="underlined">σε όλους</hi>.
+<lb/>Γειά σου</salute>
+<signed><persName xml:id="Alekos">Αλέκος</persName></signed></closer>
+<postscript><label>ΥΓ.</label> <p>περιμένω.</p></postscript>
+
+</div>
+                </body>
+            </text>
+            <text type="letter" xml:id="letter5">
+                <body>
+                  <div><opener><dateline><date when="1944-12-28">28-12-44</date></dateline>
+<salute>Αγαπητή <persName xml:id="Popi">Πόπη</persName> γειάσου</salute></opener>
+<p>Καιρός πέρασε πολύς που δεν σας έγραψα αλλά δεν μου δόθηκε ευκαιρία. Τα <date when="1944-12-25" type="festive">Χριστούγεννα</date> τα έκανα στου <persName>Φράγγου</persName> και <date when="1944-12-26">την δεύτερη μέρα</date> στη <persName>Μαριγούδα</persName> της <persName>θείας Βαγγελιώς</persName>. Τα γλυκά τα πήρα. Καλά αλλά λίγα.</p>
+<p>Καθόλου απίθανο <date when="1945-01-07" type="festive">τον Άη Γιάννη</date> να τον κάνουμε μαζύ. Βρήκαμε μαζύ με τον <persName>Φράγγο</persName> εδώ στο <placeName xml:id="Sochos">Σωχό</placeName> κάτι μακρινούς συγγενείς του και μας περιποιήθηκαν. Εξ άλλου όλο το χωριό είναι πρόθυμο να μας εξυπηρετήσει σε κάθε ζήτημα. <date when="1944-12-27">Ψες</date> η <orgName type="resistance" ref="https://en.wikipedia.org/wiki/United_Panhellenic_Organization_of_Youth">ΕΠΟΝ</orgName> <placeName xml:id="Sochos">Σωχού</placeName> <del>μας</del> έπαιξε <name type="community">ένα θεατρικό έργο</name> για μας και απόψε εμείς θα δώσουμε παράσταση γι αυτούς. Εσείς πώς περνάτε; <rs type="correspondence">Μη μου γράφετε ακόμα</rs>, <rs type="correspondence">περιμένετε και άλλο γράμμα μου</rs>, φρόντισε πάντως το πουλόβερ να ετοιμαστή. Μη ξεχνάς να ευχαριστήσης την <persName>Νούλη</persName> για την … γρηγοράδα της που έδειξε στο πλέξιμο. Δεν πιστεύω να το πάρης στα σοβαρά, γιατί ξέχασα να σε γράψω πως διάβασα στο γράμμα σου τις δικαιολογίες που τις βρίσκω λογικές, απλώς επομένως να την ευχαριστήσης, έτσι; Ο <persName type="alias">Τράγος</persName> <rs type="correspondence">να με γράψει οπωσδήποτε</rs>. <date when="1944-12-27">Ψες</date> <del>σας</del> ξανάγραψα στη μάμα, δεν ξέρω αν το πήρατε. Χαιρετισμούς σ’ όλους.</p>
+<p>Χαιρετίσματα έχετε από την <choice><abbr>οικ.</abbr><expan>οικογένεια</expan></choice> <persName>Φράγγου</persName>, <persName>Μαριγούδα</persName>, <persName>Φαίδρα</persName>. Κοιμήθηκα ένα βράδυ στη <persName>Μαριγούδα</persName> και σκεπάστηκα με την κουβέρτα που άφησε ο <persName xml:id="Yiannakis">μπαμπάς</persName>.</p> <salute><del/>Σας εύχομαι <rs type="resistance">καλή λευτεριά</rs> και ευτυχισμένο και <rs type="resistance">λαοκρατούμενο</rs> τον καινούργιο χρόνο.</salute>
+
+<closer><salute>Γειά χαρά</salute>
+<signed><persName xml:id="Alekos">Αλέκος</persName></signed>
+<pb/>
+</closer><postscript><label>Υ.Γ. </label><p>Κατά λάθος βρήκα <rs type="correspondence">κόλα και φάκελο πολυτελείας</rs>, μην απορείς. </p><signed><persName xml:id="Alekos" full="init"> Αλ.</persName></signed></postscript>
+
+               </div> <gap></gap></body>
+            </text>
+        </group>
+    </text>
+
+</TEI>
