@@ -72,6 +72,178 @@ The letters belong to Alekos’ son, Yiannis. They form a part of the correspond
         </encodingDesc>
        
     </teiHeader>
+
+ <facsimile>
+      <surface xml:id="indexx">
+         <figure>
+            <label>Home photo</label>
+            <figDesc>
+               Four letters written by Alekos Mouzas, a student in Axis ocupated
+                    Greece, to his sister, Popi, from April 1942 to December 1944. 
+            </figDesc>
+            <graphic xml:id="indexx_full" url="assets/img/documents/indexx.jpg"/>
+             <graphic xml:id="indexx_thumb" url="assets/img/documents/indexx_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="April_1942_1">
+         <figure>
+            <label>April_1942_1</label>
+            <figDesc>
+               Letter written 30 April 1942 
+            </figDesc>
+            <graphic xml:id="April_1942_1.full" url="assets/img/documents/2.1_p1.jpg"/>
+            <graphic xml:id="April_1942_1.thumb" url="assets/img/documents/2.1_p1_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="April_1942_2">
+         <figure>
+            <label>April_1942_2</label>
+            <figDesc>
+               Letter written 30 April 1942, p.2  
+            </figDesc>
+            <graphic xml:id="April_1942_2.full" url="assets/img/documents/2.2_p2.jpg"/>
+            <graphic xml:id="April_1942_2.thumb" url="assets/img/documents/2.2_p2_thumbnail.jpg"/>          
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="October_1942_up">
+         <figure>
+            <label>October_1942_up</label>
+            <figDesc>
+               Letter written 04 October 1942 
+            </figDesc>
+            <graphic xml:id="October_1942_up.full" url="assets/img/documents/3.1_up.jpg"/>
+            <graphic xml:id="October_1942_up.thumb" url="assets/img/documents/3.1_up_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="October_1942_down">
+         <figure>
+            <label>October_1942_down</label>
+            <figDesc>
+               Letter written 04 October 1942 
+            </figDesc>
+            <graphic xml:id="October_1942_down.full" url="assets/img/documents/3.2_down.jpg"/>
+            <graphic xml:id="October_1942_down.thumb" url="assets/img/documents/3.2_down_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="October_1942_folded">
+         <figure>
+            <label>October_1942_folded</label>
+            <figDesc>
+               Letter written 04 October 1942 
+            </figDesc>
+            <graphic xml:id="October_1942_folded.full" url="assets/img/documents/3.3_folded.jpg"/>
+           <graphic xml:id="October_1942_folded.thumb" url="assets/img/documents/3.3_folded_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="October_1942_full">
+         <figure>
+            <label>October_1942_full</label>
+            <figDesc>
+               Letter written 04 October 1942 
+            </figDesc>
+            <graphic xml:id="October_1942_full.full" url="assets/img/documents/3.4_full.jpg"/>
+            <graphic xml:id="October_1942_full.thumb" url="assets/img/documents/3.4_full_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="November_1944_1">
+         <figure>
+            <label>November_1944_1</label>
+            <figDesc>
+               Letter written 18 November 1944
+            </figDesc>
+            <graphic xml:id="November_1944_1.full" url="assets/img/documents/4.1_p1.jpg"/>
+             <graphic xml:id="November_1944_1.thumb" url="assets/img/documents/4.1_p1_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="November_1944_2">
+         <figure>
+            <label>November_1944_2</label>
+            <figDesc>
+               Letter written 18 November 1944, p.2
+            </figDesc>
+            <graphic xml:id="November_1944_2.full" url="assets/img/documents/4.2_p2.jpg"/>
+             <graphic xml:id="November_1944_2.thumb" url="assets/img/documents/4.2_p2_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="November_1944_3">
+         <figure>
+            <label>November_1944_3</label>
+            <figDesc>
+               Letter written 18 November 1944, p.3
+            </figDesc>
+            <graphic xml:id="November_1944_2.full" url="assets/img/documents/4.3_p3.jpg"/>
+            <graphic xml:id="November_1944_2.thumb" url="assets/img/documents/4.3_p3_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+
+<facsimile>
+      <surface xml:id="November_1944_address">
+         <figure>
+            <label>November_1944_address</label>
+            <figDesc>
+               Letter written 18 November 1944, address
+            </figDesc>
+            <graphic xml:id="November_1944_address.full" url="assets/img/documents/4.3_p3_address.jpg"/>
+             <graphic xml:id="November_1944_address.thumb" url="assets/img/documents/4.3_p3_address_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="December_1944_front">
+         <figure>
+            <label>December_1944_front</label>
+            <figDesc>
+               Letter written 28 December 1944, front
+            </figDesc>
+            <graphic xml:id="December_1944_front.full" url="assets/img/documents/5.1_front.jpg"/>
+             <graphic xml:id="December_1944_front.thumb" url="assets/img/documents/5.1_front_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+<facsimile>
+      <surface xml:id="December_1944_back">
+         <figure>
+            <label>December_1944_back</label>
+            <figDesc>
+               Letter written 28 December 1944, back
+            </figDesc>
+            <graphic xml:id="December_1944_back.full" url="assets/img/documents/5.2_back.jpg"/>
+            <graphic xml:id="December_1944_back.thumb" url="assets/img/documents/5.2_back_thumbnail.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
     <text>
         <group>
             <text type="letter" xml:id="letter2">

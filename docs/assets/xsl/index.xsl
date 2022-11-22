@@ -45,14 +45,18 @@
                                <article id="thumbnail">
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='indexx_thumb']/@url"/>
-                                    </xsl:attribute>
+                                        <xsl:value-of select="
+//tei:facsimile/tei:surface//tei:graphic[@xml:id='indexx_thumb']/@url='assets/img/documents/indexx.jpg'"/>                            
+   </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:label"/>
                                     </xsl:attribute>
+
+
                                     <xsl:attribute name="alt">
                                         <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:figDesc"/>
                                     </xsl:attribute>
+
                                 </img>
                                </article>
                             </div>
@@ -61,7 +65,10 @@
                                 <article id="transcription">
                                   <p>
                                     <strong>Description:</strong>
-                                    <xsl:apply-templates select="//tei:TEI//tei:figDesc"/>
+<!-- I CHANGED THIS PATH, I hope it works! Otherwise I dont know how to choose the indexx.img -->
+                                   
+ <xsl:apply-templates select = "//tei:surface [@ xml:id='indexx']//tei:figDesc"/>
+
                                   </p>
                                 </article>
                             </div>
