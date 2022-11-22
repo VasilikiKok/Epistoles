@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Reading Text
+                    Αγαπητή Πόπη: Reading Text
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -42,19 +42,54 @@
                         <div class="row">
                             <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
                             <div class="col-">
-                                <article id="thumbnail">
+                               
+ <!-- I -Vasiliki_ changed from thumb to full, because too small -->
+<article id="index">
                                     <img>
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
+                                            <xsl:value-of select="//tei:surface[@xml:id='indexx']//tei:graphic[@xml:id='indexx_full']/@url"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:label"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
                                 </article>
+
+
+<article id="2.1_p1">
+                                    <img>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:surface[@xml:id='April_1942_1']//tei:graphic[@xml:id='April_1942_1.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_1']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_1']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+
+<article id="2.2_p2">
+                                    <img>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:surface[@xml:id='April_1942_2']//tei:graphic[@xml:id='April_1942_2.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_2']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_2']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+
+
+
+
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-md">
@@ -77,7 +112,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2022 Vasiliki Kokkala.
                       </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Top Layer
+                    Αγαπητή Πόπη: Top Layer
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -42,19 +42,24 @@
                         <div class="row">
                             <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
                             <div class="col-">
-                                <article id="thumbnail">
+                               
+
+<!-- I -Vasiliki- have chosen full img instead of thumbnail, because the small isnt visible-and let's see if it's slow or what else --> 
+ <article id="thumbnail"> 
                                     <img>
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
+<xsl:value-of select="//tei:surface[@xml:id='indexx']//tei:graphic[@xml:id='indexx_full']/@url"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:label"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
                                 </article>
+
+
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-md">
@@ -77,7 +82,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2022 Vasiliki Kokkala.
                       </div>
                     </div>
                 </div>
