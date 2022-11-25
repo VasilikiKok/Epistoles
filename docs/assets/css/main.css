@@ -59,7 +59,7 @@ article {
 display: inline-block;
 }
 article img {
-	max-width: 20vw!important;
+	  max-width: 15vw!important;
 }
 
 article[id="thumbnail"] img {
