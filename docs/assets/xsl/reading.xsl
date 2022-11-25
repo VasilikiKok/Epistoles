@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Αγαπητή Πόπη: Reading Text
+                    <xsl:apply-templates select="//tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>  
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -31,74 +31,216 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="reading.html">Letters</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (three columns) -->
+                        <!-- <xsl:for-each select="//tei:facsimile/tei:surface[not(@xml:id='indexx')]/*"> -->
                         <div class="row">
-                            <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
-                            <div class="col-">
-                               
- <!-- I -Vasiliki_ changed from thumb to full, because too small -->
-<article id="index">
-                                    <img>
+                            <!-- first column: load the thumbnail image based on the IIIF link in 0the graphic above -->
+                            <div class="col-md-6">
+                                <article>
+                                    <img class="img-thumbnail">
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='indexx']//tei:graphic[@xml:id='indexx_full']/@url"/>
+                                            <xsl:value-of select="//tei:graphic[@xml:id='April_1942_1.full']/@url"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
-                                </article>
-
-
-<article id="2.1_p1">
-                                    <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='April_1942_1']//tei:graphic[@xml:id='April_1942_1.full']/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_1']//tei:label"/>
+                                            <xsl:value-of select="//tei:surface[@xml:id='April_1942_1']//tei:label"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
                                             <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_1']//tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
                                 </article>
-
-<article id="2.2_p2">
-                                    <img>
+                                <article>
+                                    <img class="img-thumbnail">
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='April_1942_2']//tei:graphic[@xml:id='April_1942_2.full']/@url"/>
+                                            <xsl:value-of select="//tei:graphic[@xml:id='April_1942_2.full']/@url"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_2']//tei:label"/>
+                                            <xsl:value-of select="//tei:surface[@xml:id='April_1942_2']//tei:label"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
                                             <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='April_1942_2']//tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
                                 </article>
-
-
-
-
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-md">
+                            <div class="col-md-6">
                                 <article id="transcript">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:text[@xml:id='letter2']//tei:body"/>
                                 </article>
                             </div>
-                            <!-- third column: empty sidebar -->
-                            <div class="col-">
+                        </div>
+                        <hr/>
+                        <div class="row">
+                            <!-- first column: load the thumbnail image based on the IIIF link in 0the graphic above -->
+                            <div class="col-md-6">
+                               <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='October_1942_up.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='October_1942_up']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='October_1942_up']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='October_1942_down.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='October_1942_down']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='October_1942_down']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='October_1942_folded.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='October_1942_folded']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='October_1942_folded']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='October_1942_full.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='October_1942_full']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='October_1942_full']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-md-6">
+                                <article id="transcript">
+                                    <xsl:apply-templates select="//tei:TEI//tei:text[@xml:id='letter3']//tei:front"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:text[@xml:id='letter3']//tei:body"/>
+                                </article>
+                            </div>
+                        </div>
+                           <hr/>
+                         <div class="row">
+
+                            <!-- first column: load the thumbnail image based on the IIIF link in 0the graphic above -->
+                            <div class="col-md-6">
+                               <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='November_1944_1.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='November_1944_1']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='November_1944_1']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='November_1944_2.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='November_1944_2']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='November_1944_2']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='November_1944_3.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='November_1944_3']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='November_1944_3']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='November_1944_address.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='November_1944_address']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='November_1944_address']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-md-6">
+                                <article id="transcript">
+                                    <xsl:apply-templates select="//tei:TEI//tei:text[@xml:id='letter4']//tei:body"/>
+                                </article>
+                            </div>
+                        </div>
+                           <hr/>
+                           <div class="row">
+                            <!-- first column: load the thumbnail image based on the IIIF link in 0the graphic above -->
+                            <div class="col-md-6">
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='December_1944_front.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='December_1944_front']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='December_1944_front']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                                <article>
+                                    <img class="img-thumbnail">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:graphic[@xml:id='December_1944_back.full']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:surface[@xml:id='December_1944_back']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='December_1944_back']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-md-6">
+                                <article id="transcript">
+                                    <xsl:apply-templates select="//tei:TEI//tei:text[@xml:id='letter5']//tei:body"/>
+                                </article>
                             </div>
                         </div>
                     </div>
@@ -112,7 +254,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Vasiliki Kokkala.
+                         2022 <xsl:apply-templates select="//tei:TEI//tei:principal"/>
                       </div>
                     </div>
                 </div>
@@ -161,7 +303,7 @@
 
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
+    <xsl:template match="tei:hi[@rend = 'underlined']">
         <u>
             <xsl:apply-templates/>
         </u>

@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Αγαπητή Πόπη: Home
+                    <xsl:apply-templates select="//tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>                
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -31,9 +31,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="reading.html">Letters</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -45,18 +43,14 @@
                                <article id="thumbnail">
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="
-//tei:surface[@xml:id='indexx']//tei:graphic[@xml:id='indexx_full']/@url"/>                          
-   </xsl:attribute>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='indexx_full']/@url"/>
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:label"/>
                                     </xsl:attribute>
-
-
                                     <xsl:attribute name="alt">
                                         <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:figDesc"/>
                                     </xsl:attribute>
-
                                 </img>
                                </article>
                             </div>
@@ -65,10 +59,8 @@
                                 <article id="transcription">
                                   <p>
                                     <strong>Description:</strong>
-<!-- I -Vasiliki- CHANGED THIS PATH, I hope it works! Otherwise I dont know how to choose the indexx.img -->
-                                   
- <xsl:apply-templates select = "//tei:surface [@ xml:id='indexx']//tei:figDesc"/>
-                                                  </p>
+                                    <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id='indexx']//tei:figDesc"/>
+                                  </p>
                                 </article>
                             </div>
                         </div>
@@ -83,7 +75,15 @@
                                         <strong>Transcription by:</strong><br/>
                                         <xsl:apply-templates select="//tei:TEI//tei:principal"/>
                                       </p>
+                                        <p>
+                                        <strong>Provided by:</strong><br/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:respStmt//tei:name"/>
+                                      </p>
                                     </article>
+                                </div>
+                            <div class="col-sm">
+                                <a href="https://example.com">ddsdsdsds</a>
+                                <p></p>
                                 </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                   			</a>
                   		</div>
                   		<div class="copyright_text">
-                         2022 Vasiliki Kokkala.
+                         2022 <xsl:apply-templates select="//tei:TEI//tei:principal"/>
                       </div>
                     </div>
                 </div>

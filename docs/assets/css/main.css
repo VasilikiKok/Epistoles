@@ -54,3 +54,14 @@ footer {
 		width: 1vw;
 		margin:.15vw;
 	}
+
+article {
+display: inline-block;
+}
+article img {
+	max-width: 20vw!important;
+}
+
+article[id="thumbnail"] img {
+	max-width: 30vw!important;
+}
