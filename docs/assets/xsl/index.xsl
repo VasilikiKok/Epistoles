@@ -82,7 +82,7 @@
                                     </article>
                                 </div>
                             <div class="col-sm">
-                                <a href="https://example.com">ddsdsdsds</a>
+                              <!--  <a href="https://example.com">ddsdsdsds</a> But when I enter the link I want, it doesn;t work --> 
                                 <p></p>
                                 </div>
                         </div>
