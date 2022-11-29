@@ -83,7 +83,7 @@
                                 </div>
                             <div class="col-sm">
                               <!--  <a href="https://example.com">ddsdsdsds</a> But when I enter the link I want, it doesn;t work --> 
-                                <p></p>
+                                <p>In the pages the reader can immerse in the historical and cultural realm of 1940s Greece under occupation: academic life, strikes and exams, family ties and social networks, correspondence transfered hand by hand, the community of the church and of a choir, visits to relatives, waiting in line for food supplies, an imprisoned professor, drama performance as a rebellious act, taking part in the resistance, theatre in the mountain, asking for a sweater to be knitted, waiting for letters to be written, being covered with daddy's blanket, longing to meet the family in the feasts.</p>
                                 </div>
                         </div>
                     </div>
@@ -98,7 +98,8 @@
                   		</div>
                   		<div class="copyright_text">
                          2022 <xsl:apply-templates select="//tei:TEI//tei:principal"/>
-                      </div>
+                    This edition has been realised as part of the course Digitizing Cultural Heritage Materials, University of Borås, Spring 2022. 
+                     </div>
                     </div>
                 </div>
                 </footer>
